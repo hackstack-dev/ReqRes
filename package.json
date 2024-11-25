@@ -1,10 +1,10 @@
 {
-  "name": "mono",
+  "name": "reqres",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test and debug Webhooks and HTTP requests",
   "scripts": {
-    "start:ui": "pnpm --filter ui dev",
-    "start:api": "pnpm --filter api dev",
+    "start:ui": "pnpm --filter reqres-ui dev",
+    "start:api": "pnpm --filter reqres-api dev",
     "start": "pnpm run start:ui & pnpm run start:api",
     "build": "pnpm recursive run build",
     "test": "pnpm recursive run test"
