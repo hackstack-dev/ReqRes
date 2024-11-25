@@ -1,0 +1,15 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:ui": "pnpm --filter ui dev",
+    "start:api": "pnpm --filter api dev",
+    "start": "pnpm run start:ui & pnpm run start:api",
+    "build": "pnpm recursive run build",
+    "test": "pnpm recursive run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
